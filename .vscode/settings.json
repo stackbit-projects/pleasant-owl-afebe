@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false,
+    "source.fixAll.stylelint": true
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.enable": true,
+  "vetur.format.enable": true,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.less": "none",
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json",
+    "route": "yaml"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  }
+}
